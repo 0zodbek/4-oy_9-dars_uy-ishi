@@ -148,9 +148,21 @@
 // }
 // console.log(m13([1,2,3,4,5,6]));
 // // 14-masala  **Masala 14**: Berilgan massivni `slice` metodi yordamida uchinchi indeksdan boshlab oxirgi indeksgacha kesib oling. So'ng, natijaviy massivni `reverse` metodi yordamida teskari tartibda joylashtirib chiqaring.
-
+// function m14 (arg){
+// let a = arg ;
+// let b = a.slice(3,a.length);
+// b.reverse();
+// return b ;
+// }
+// console.log(m14([1,2,3,4,5,6,7,8]));
 // // 15-masala  **Masala 15**: Berilgan massivni `flat` metodi yordamida bir qatlamga tushiring va natijaviy massivning oxirgi elementini `at` metodi yordamida olib, natijani chiqaring.
-
+// function m15(arg){
+// let a = arg ;
+// let b = a.flat()
+// let c = b.at(-1)
+// return c ;
+// }
+// console.log(m15([1,2,3,[4,5,6],[7,8,9]]));
 // // 16-masala  **Masala 16**: Berilgan massivdan `at` metodi yordamida uchinchi elementni oling. So'ng, ushbu elementni massivning boshiga `unshift` metodi yordamida qo'shing va natijaviy massivning uzunligini toping.
 
 // // 17-masala  **Masala 17**: Berilgan massivni `reverse` metodi yordamida teskari tartibda joylashtiring va natijaviy massivni `join` metodi yordamida string ko'rinishiga o'tkazing. Keyin, stringning oxirgi elementini aniqlang.
